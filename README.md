@@ -12,6 +12,12 @@
     - [2.5. utils folder](#25-utils-folder)
     - [2.6. components folder](#26-components-folder)
     - [2.7. pages folder](#27-pages-folder)
+    - [3. Advanced](#3-advanced)
+    - [3.1. pages folder](#31-pages-folder)
+    - [3.2. layouts folder](#32-layouts-folder)
+    - [3.3. lib folder](#33-lib-folder)
+    - [3.4. services folder](#34-services-folder)
+    - [3.5. features folder](#35-features-folder)
 
 ## 2. Intermediate
 
@@ -69,4 +75,50 @@ Contain many folders, every one is for a specific page of the application.
 
 ![](./images/int_pages_home.JPG)
 
-Every folder contain components that are specific for a page (not shared between many pages).
+Every page folder contain components that are unique for the specific page (not shared between many pages).
+
+### 3. Advanced
+
+It's the Intermediate version + some changes & additional folders
+
+![](./images/adv_all.JPG)
+
+### 3.1. pages folder
+
+![](./images/adv_pages.JPG)
+
+We no longer have folders, we just have individual files for each of our pages.
+
+### 3.2. layouts folder
+
+![](./images/adv_layouts.JPG)
+
+Specific for components that deals with links like `Navebar`, `Sidebar` and `Footer`.
+
+### 3.3. lib folder
+
+![](./images/adv_lib.JPG)
+
+It's an implementation of the Facade Pattern. For example you use the `axios` library, so you wrap it in your own code.
+
+### 3.4. services folder
+
+![](./images/adv_services.JPG)
+
+Contain all the services for calling your api.
+
+### 3.5. features folder
+
+![](./images/adv_features.JPG)
+
+Contain many folders, every one is for a specific feature of the application.
+
+![](./images/adv_feat_auth.JPG)
+
+![](./images/adv_feat_sett.JPG)
+
+![](./images/adv_feat_todos.JPG)
+
+Every feature folder contain all the code for the specific feature, it's a mini version of the `src` folder the feature.
+
+The `index.js` file is used to export all the things we went to use from the feature, and then we only import it from this `index.js` file.

@@ -81,43 +81,43 @@ Every page folder contain components that are unique for the specific page (not 
 
 It's the Intermediate version + some changes & additional folders
 
-![](./images/adv_all.JPG)
+![](./images/adv_all_.JPG)
 
 ### 2.1. pages folder
 
-![](./images/adv_pages.JPG)
+![](./images/adv_pages_.JPG)
 
 We no longer have folders, we just have individual files for each of our pages.
 
 ### 2.2. layouts folder
 
-![](./images/adv_layouts.JPG)
+![](./images/adv_layouts_.JPG)
 
 Specific for components that deals with links like `Navebar`, `Sidebar` and `Footer`.
 
 ### 2.3. lib folder
 
-![](./images/adv_lib.JPG)
+![](./images/adv_lib_.JPG)
 
 It's an implementation of the Facade Pattern. For example you use the `axios` library, so you wrap it in your own code.
 
 ### 2.4. services folder
 
-![](./images/adv_services.JPG)
+![](./images/adv_services_.JPG)
 
 Contain all the services for calling your api.
 
 ### 2.5. features folder
 
-![](./images/adv_features.JPG)
+![](./images/adv_features_.JPG)
 
 Contain many folders, every one is for a specific feature of the application.
 
-![](./images/adv_feat_auth.JPG)
+![](./images/adv_feat_auth_.JPG)
 
-![](./images/adv_feat_sett.JPG)
+![](./images/adv_feat_sett_.JPG)
 
-![](./images/adv_feat_todos.JPG)
+![](./images/adv_feat_todos_.JPG)
 
 Every feature folder contain all the code for the specific feature, it's a mini version of the `src` folder the feature.
 
